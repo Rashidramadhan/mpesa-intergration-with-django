@@ -1,9 +1,9 @@
 import requests
-from mpesa_intergration import keys
+from mpesa_intergration.src import keys
 
-from mpesa_intergration.access_token import generate_token
-from mpesa_intergration.encoded import generate_password
-from mpesa_intergration.utilities import get_format_date
+from mpesa_intergration.src.access_token import generate_token
+from mpesa_intergration.src.encoded import generate_password
+from mpesa_intergration.src.utilities import get_format_date
 
 
 

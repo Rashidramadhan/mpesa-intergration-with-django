@@ -1,6 +1,6 @@
 import requests
 from requests.auth import HTTPBasicAuth
-from mpesa_intergration import keys
+from mpesa_intergration.src import keys
 
 
 def generate_token():

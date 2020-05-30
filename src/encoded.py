@@ -1,5 +1,5 @@
 import base64
-from mpesa_intergration import keys
+from mpesa_intergration.src import keys
 
 
 def generate_password(formated_date):

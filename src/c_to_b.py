@@ -1,7 +1,7 @@
 import requests
 
-from mpesa_intergration import keys
-from mpesa_intergration.access_token import generate_token
+from mpesa_intergration.src import keys
+from mpesa_intergration.src.access_token import generate_token
 
 my_access_token = generate_token()
 def register_url():
